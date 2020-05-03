@@ -298,6 +298,5 @@ echo
 
 
 
-echo "Config Completed. Host will reboot now"
+echo "Config Completed. Please perform a reboot that changes make effect."
 echo
-systemctl reboot
