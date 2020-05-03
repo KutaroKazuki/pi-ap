@@ -71,7 +71,7 @@ HWMODE='g'
 # '0'= Disabled  - '1'=Enabled
 # NOTICE: When enabling MODE80211AC then "HWMODE" MUST be set to a value of "a"
 #	 When the install executes it will validate that this dependency has been met or ignore enabling MODE80211AC
-MODE80211AC='0'
+MODE80211AC='1'
 
 # MACADDRACL (White-listing clients by their MAC address) restricts AP authentication to only hosts with their WiFi interface mac address listed in "hostapd.accept"
 # "0" = DISABLE (password auth only)
