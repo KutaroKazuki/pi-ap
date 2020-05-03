@@ -15,11 +15,6 @@
 USEREXECUTINGSCRIPT='pi'
 REPONAME='pi-ap'
 
-# Ensure all hostnames are UNIQUE:
-# If using "pi-ap" to configure other APs on your LAN change default hostname by at least incrementing number in name ie: "3bplus-ap2" as you add them
-OURHOSTNAME='3bplus-ap1'
-OURDOMAIN='f1linux.com'
-
 ### AP Variables:
 
 # DHCP Pool will be derived from the IP and mask specified in "IPV4IPWLAN0" variable. If larger pool of addresses required use a wider mask than a /28
