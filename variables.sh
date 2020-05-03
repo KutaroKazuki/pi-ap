@@ -24,13 +24,13 @@ OURDOMAIN='f1linux.com'
 
 # DHCP Pool will be derived from the IP and mask specified in "IPV4IPWLAN0" variable. If larger pool of addresses required use a wider mask than a /28
 # ** Ensure that this subnet specified below is not already used on your network **
-IPV4IPWLAN0='192.168.0.1/28'
+IPV4IPWLAN0='10.34.0.1/28'
 #IPV6IPWLAN0="$(ip -6 addr|awk '{print $2}'|grep -P '^(?!fe80)[[:alnum:]]{4}:.*/64'|cut -d '/' -f1)"
 
 # NOTE: Both Hyphens and underscores are valid characters for use in an SSID
-SSIDNAME='RPI-AP1'
+SSIDNAME='xLinkKaiPi'
 # Password must be min 8 characters and must NOT include single quotes- these are used as delimiters to encase the password so other special characters do not expand in bash
-APWPA2PASSWD='cH4nG3M3'
+APWPA2PASSWD='ChangeMe'
 
 # Default port systemd-resolved start on '5353' collides with dnsmasq (which does DHCP for WiFi clients) which also uses '5353' as its default port.
 # I chose 5454 but that number is arbitrary: if you have another process which listens on port 5454 feel free to change it to a different value
